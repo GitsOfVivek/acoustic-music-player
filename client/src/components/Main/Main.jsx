@@ -221,12 +221,6 @@ const Main = () => {
 					setIsLibraryVisible={setIsLibraryVisible}
 				/>
 			</div>
-			<a
-				href="https://www.linkedin.com/in/vivek9999/"
-				className="my-tag"
-				target="_blank">
-				Created with ❤️ - ViveK
-			</a>
 		</div>
 	);
 };
