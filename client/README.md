@@ -1,6 +1,6 @@
 # Acoustic - Music Player
 
-Visit Demo:- https://vivek-acoustic.netlify.app/
+Visit Demo:- https://acoustic-vivek.vercel.app/
 
 ## Tech Stack
  - ReactJS
