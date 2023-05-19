@@ -1,0 +1,65 @@
+.header-wrapper {
+	height: 70px;
+	width: 100%;
+	// background: transparent;
+	// position: fixed;
+
+	.header {
+		height: 100%;
+		width: 80%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.logo {
+			font-size: 2.4rem;
+			text-transform: uppercase;
+			font-weight: 700;
+			padding: 0 15px;
+			text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+		}
+
+		.right-sec {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 2rem;
+			.search {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				input {
+					font-size: 1.1rem;
+					height: 40px;
+					padding: 0 10px;
+					border: 1px solid var(--color-tertiary);
+					outline: none;
+				}
+				button {
+					height: 40px;
+					border: none;
+					outline: none;
+					padding: 0 10px;
+					background: var(--color-tertiary);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: var(--color-primary);
+					font-size: 1.1rem;
+					cursor: pointer;
+				}
+			}
+			.bars {
+				font-size: 2.3rem;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		.header {
+			width: 90%;
+		}
+	}
+}
